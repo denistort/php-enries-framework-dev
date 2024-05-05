@@ -1,0 +1,21 @@
+{
+    "name": "project/project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "framework"
+    }
+    ],
+    "require": {
+        "enries/web-framework": "dev-main"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.0",
+        "laravel/pint": "^1.15"
+    }
+}
